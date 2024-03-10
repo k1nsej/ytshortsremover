@@ -11,4 +11,4 @@ First, you will need to install a userscript manager, such as [Tampermonkey](htt
 
 Then, open the following link:
 
-### [Install the script (requires a userscript manager)](https://github.com/YukisCoffee/yt-anti-shorts/raw/main/anti-shorts.user.js)
+### [Install the script (requires a userscript manager)](https://raw.githubusercontent.com/k1nsej/ytshortsremover/main/YouTube%20Shorts%20Remover.user.js)
