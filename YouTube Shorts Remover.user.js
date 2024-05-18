@@ -24,19 +24,12 @@
         });
     }
     
-    function removeGuideSectionRenderers() {
-        const richSectionRenderers = document.querySelectorAll('ytd-guide-section-renderer');
-        richSectionRenderers.forEach(element => {
-            element.remove();
-        });
-    }
-    
     const observer = new MutationObserver(mutations => {
         mutations.forEach(mutation => {
             if (mutation.type === 'childList') {
                 removeShorts();
                 removeRichSectionRenderers();
-                removeGuideSectionRenderers();
+    
             }
         });
     });
@@ -46,5 +39,4 @@
 
     removeShorts();
     removeRichSectionRenderers();
-    removeGuideSectionRenderers();
 })();
